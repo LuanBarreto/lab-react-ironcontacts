@@ -1,17 +1,35 @@
 .App {
   text-align: center;
+    flex-wrap: wrap; 
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+img {
+  width: 8em;
+  border-radius: 30%;
+  height: 30vmin;
 }
+.Celeb{
+border:2px solid #25692A;
+border-radius:4px;
+display:inline-block;
+cursor:pointer;
+font-family:Verdana;
+font-weight:bold;
+font-size:43px;
+padding:6px 10px;
+text-decoration:none;
+} 
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.On-click{
 
 .App-header {
   background-color: #282c34;
@@ -22,6 +40,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+border:2px solid #25692A;
+border-radius:4px;
+display:inline-block;
+cursor:pointer;
+font-family:Verdana;
+font-weight:bold;
+font-size:10px;
+padding:6px 10px;
+background:linear-gradient(to bottom, #eb9b48 5%, #f7d6b3 100%);
 }
 
 .App-link {
